@@ -392,7 +392,7 @@ CheckInKu-Pro-Release
 
 ---
 
-# 👩‍💻 Developer
+# 👩🏼‍💻 Developer
 
 
 **Ruth Angel Sitorus**
