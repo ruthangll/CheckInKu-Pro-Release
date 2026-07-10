@@ -1,10 +1,15 @@
 <p align="center">
-  <img src="assets/icon.png" width="150"/>
+  <img src="./assets/icon.png" width="150"/>
 </p>
 
-# 📍 CheckInKu Pro
+<h1 align="center">📍 CheckInKu Pro</h1>
 
-## 🚀 Release Candidate — React Native Expo + EAS Build
+<p align="center">
+  Release Candidate — React Native Expo + EAS Build
+</p>
+
+
+# 🚀 Overview
 
 CheckInKu Pro merupakan aplikasi mobile berbasis **React Native Expo** yang memanfaatkan fitur native smartphone seperti kamera, galeri, GPS, permission system, dan layanan cuaca.
 
@@ -16,7 +21,7 @@ Project ini dikembangkan sebagai implementasi:
 **Praktik Pemrograman Mobile (React Native)**  
 **Universitas Prima Indonesia**
 
-Tahapan pengembangan meliputi:
+Tahapan pengembangan:
 
 - Konfigurasi aplikasi menggunakan Expo.
 - Pengaturan app.json.
@@ -29,6 +34,7 @@ Tahapan pengembangan meliputi:
 ---
 
 # 📱 Fitur Utama Aplikasi
+
 
 ## 📸 Camera Check-In
 
@@ -91,17 +97,21 @@ Aplikasi menerapkan sistem permission native Android.
 
 Permission yang digunakan:
 
+
 ### CAMERA
 
 Digunakan untuk mengambil foto check-in melalui kamera perangkat.
+
 
 ### READ_MEDIA_IMAGES
 
 Digunakan untuk memilih foto dari galeri.
 
+
 ### ACCESS_FINE_LOCATION
 
 Digunakan untuk mendapatkan lokasi pengguna melalui GPS.
+
 
 Apabila permission ditolak, aplikasi tetap berjalan tanpa mengalami crash.
 
@@ -109,6 +119,7 @@ Apabila permission ditolak, aplikasi tetap berjalan tanpa mengalami crash.
 ---
 
 # 📦 Release Build Information
+
 
 ## EAS Build Configuration
 
@@ -169,13 +180,19 @@ Link tersebut merupakan halaman EAS Build yang berisi hasil build APK dan tombol
 Aplikasi menggunakan asset custom untuk kebutuhan release.
 
 
-## App Icon
+## 📱 App Icon
+
+<p align="center">
+  <img src="./assets/icon.png" width="200"/>
+</p>
+
 
 File:
 
 ```
 assets/icon.png
 ```
+
 
 Spesifikasi:
 
@@ -184,7 +201,14 @@ Spesifikasi:
 - Desain khusus aplikasi CheckInKu Pro.
 
 
-## Adaptive Icon
+---
+
+## 🔷 Adaptive Icon
+
+<p align="center">
+  <img src="./assets/adaptive-icon.png" width="200"/>
+</p>
+
 
 File:
 
@@ -192,10 +216,18 @@ File:
 assets/adaptive-icon.png
 ```
 
+
 Digunakan sebagai icon launcher Android dengan logo berada di tengah dan memiliki padding.
 
 
-## Splash Screen
+---
+
+## 🚀 Splash Screen
+
+<p align="center">
+  <img src="./assets/splash.png" width="300"/>
+</p>
+
 
 File:
 
@@ -203,7 +235,9 @@ File:
 assets/splash.png
 ```
 
-Digunakan sebagai tampilan awal aplikasi ketika dibuka.
+
+Digunakan sebagai tampilan awal aplikasi ketika aplikasi dibuka.
+
 
 Background color:
 
@@ -216,47 +250,47 @@ Background color:
 
 # 📸 Screenshot Bukti Aplikasi
 
-Dokumentasi proses build, instalasi, dan penggunaan aplikasi:
+Dokumentasi proses build, instalasi, dan penggunaan aplikasi.
 
 
 ## 1. EAS Build Finished
 
-![EAS Build Finished](screenshots/01_eas_build_finished.jpeg)
+<img src="./screenshots/01_eas_build_finished.jpeg" width="600">
 
 
 ## 2. EAS Dashboard Build
 
-![EAS Dashboard Build](screenshots/02_eas_dashboard_finished.jpeg)
+<img src="./screenshots/02_eas_dashboard_finished.jpeg" width="600">
 
 
 ## 3. Instalasi APK
 
-![APK Installation](screenshots/03_install_apk.jpeg)
+<img src="./screenshots/03_install_apk.jpeg" width="600">
 
 
 ## 4. Struktur Project
 
-![Project Structure](screenshots/04_project_structure.jpeg)
+<img src="./screenshots/04_project_structure.jpeg" width="600">
 
 
 ## 5. Splash Screen Aplikasi
 
-![Splash Screen](screenshots/05_splash_screen_aplikasi.jpeg)
+<img src="./screenshots/05_splash_screen_aplikasi.jpeg" width="600">
 
 
 ## 6. Permission Screen
 
-![Permission Screen](screenshots/06_home_permission_screen.jpeg)
+<img src="./screenshots/06_home_permission_screen.jpeg" width="600">
 
 
 ## 7. Check-In Camera & Location
 
-![Check In Camera Location](screenshots/07_checkin_camera_location_screen.jpeg)
+<img src="./screenshots/07_checkin_camera_location_screen.jpeg" width="600">
 
 
 ## 8. Icon Aplikasi Home Screen
 
-![Application Icon](screenshots/08_app_icon_home_screen.jpeg)
+<img src="./screenshots/08_app_icon_home_screen.jpeg" width="600">
 
 
 ---
@@ -279,6 +313,7 @@ Teknologi yang digunakan:
 ---
 
 # ▶️ Cara Menjalankan Project
+
 
 ## Clone Repository
 
@@ -320,12 +355,14 @@ Aplikasi dapat dijalankan menggunakan:
 
 Versi interaktif aplikasi dapat dicoba melalui Expo Snack:
 
+
 https://snack.expo.dev/@ruthangelsitorus/checkinku-proo
 
 
 ---
 
 # 📂 Struktur Project
+
 
 ```
 CheckInKu-Pro-Release
@@ -357,9 +394,12 @@ CheckInKu-Pro-Release
 
 # 👩‍💻 Developer
 
+
 **Ruth Angel Sitorus**
 
+
 Universitas Prima Indonesia
+
 
 Mata Kuliah:
 
